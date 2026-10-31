@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #F5F5F2;
+  --brand: #051C2C;
+  --accent: #2251FF;
+  --gray: #888888;
+  --input-bg: #FFFDE7;
+  --insight-bg: rgba(5, 28, 44, 0.04);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  
+  --f-serif: 'Georgia', serif;
+  --f-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@theme {
+  --font-serif: var(--f-serif);
+  --font-sans: var(--f-sans);
+  
+  --color-brand-primary: var(--brand);
+  --color-brand-accent: var(--accent);
+  --color-brand-bg: var(--bg);
+  --color-brand-muted: var(--gray);
+  --color-brand-input: var(--input-bg);
+  --color-brand-insight: var(--insight-bg);
+}
+
+body {
+  background-color: #F5F5F2;
+  color: #051C2C;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global High-Density Table Styles as specified in the theme instructions */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead tr {
+  border-bottom: 2px solid #051C2C !important;
+}
+
+table th {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  color: #051C2C !important;
+  padding: 12px 16px !important;
+  border-bottom: 2px solid #051C2C !important;
+}
+
+table td {
+  padding: 10px 16px !important;
+  border-bottom: 1px solid #EEEEEE !important;
+  font-size: 13px;
+}
+
+/* Compact Intensity styling requested by the user */
+.density-compact {
+  font-size: 12px !important;
+}
+
+.density-compact table th,
+.density-compact table td {
+  padding: 6px 12px !important;
+  font-size: 12px !important;
+}
+
+.density-compact table th {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  font-size: 11px !important;
+}
+
+.density-compact input:not([type="checkbox"]):not([type="search"]):not(.bg-white), 
+.density-compact select:not(.bg-white), 
+.density-compact textarea:not(.bg-white),
+.density-compact button,
+.density-compact select,
+.density-compact input,
+.density-compact textarea,
+.density-compact p,
+.density-compact li,
+.density-compact label {
+  font-size: 12px !important;
+}
+
+.density-compact .text-xs {
+  font-size: 11px !important;
+}
+
+.density-compact .text-sm {
+  font-size: 12px !important;
+}
+
+.density-compact .text-base {
+  font-size: 14px !important;
+}
+
+/* Global Editable elements - pale yellow matching theme #FFFDE7 */
+input:not([type="checkbox"]):not([type="search"]):not(.bg-white), select:not(.bg-white), textarea:not(.bg-white) {
+  background-color: #FFFDE7 !important;
+  border: 1px solid #E5E5E0 !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+  transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+input:not([type="checkbox"]):not([type="search"]):not(.bg-white):focus, select:not(.bg-white):focus, textarea:not(.bg-white):focus {
+  background-color: #FFFFFF !important;
+  border-color: #2251FF !important;
+  box-shadow: 0 0 0 1px #2251FF !important;
+  outline: none !important;
+}
+
+/* Page switch transition animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up-animation {
+  animation: fadeUp 180ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* Custom interactive active elements scale feedback */
+.active-hover-scale {
+  transition: transform 150ms ease, filter 150ms ease;
+}
+.active-hover-scale:hover {
+  transform: scale(1.04);
+  filter: brightness(0.98);
+  cursor: pointer;
+}
+
+/* Floating card translations */
+.floating-card-lift {
+  transition: transform 250ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 250ms ease;
+}
+.floating-card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Custom fonts styling headers and displays */
+.font-display-serif {
+  font-family: 'Georgia', serif;
+  letter-spacing: -0.03em;
+}
+
+.font-heading-serif {
+  font-family: 'Georgia', serif;
+  letter-spacing: -0.02em;
+}
+
+.font-label-caps {
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}

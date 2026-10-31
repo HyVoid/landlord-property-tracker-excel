@@ -1,0 +1,6 @@
+{
+  "name": "Property Operations Hub",
+  "description": "An interactive operational console for vacation rentals and properties managing properties, tenants, interactions, maintenance, alerts, and KPI dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
