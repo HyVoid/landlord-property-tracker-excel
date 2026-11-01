@@ -713,17 +713,6 @@ It is not designed to replace:
 
 The workbook provides a structured record and monitoring process. It does not independently verify the accuracy of manually entered data, guarantee regulatory compliance, or execute maintenance and tenant-management actions.
 
-## Access & Distribution
-
-This repository's source implementation describes the Excel workbook architecture and its operating logic.
-
-Excel Version: `YOUR_EXCEL_DOWNLOAD_URL`
-
-Browser Version: `YOUR_BROWSER_VERSION_URL`
-
-Replace these placeholders with verified release links before publishing. The implementation source used to prepare this README does not establish a deployed browser application or a downloadable workbook URL. Do not publish the placeholders as if they were working downloads.
-
-The browser version should only be listed as available after an actual browser application has been deployed and tested. Likewise, the Excel link should point to the released workbook rather than the implementation specification.
 
 ## Other Tools in This Series
 
