@@ -1,131 +1,129 @@
-# Property Operations Hub
+# Property Operations Hub: Free Rental Property Management Excel Template & Landlord Tracker
 
-**A lightweight property management control center for tracking tenants, lease renewals, insurance deadlines, maintenance costs, and operational follow-ups across small property portfolios.**
+**Property Operations Hub is a free, lightweight rental property management Excel template and web-based landlord tracker designed for small real estate portfolios (5–20 units). It centralizes tenant screening records, lease expiration tracking, property maintenance logs, compliance inspection deadlines, and vendor work orders into a single automated spreadsheet dashboard—helping independent landlords eliminate scattered notes and protect Net Operating Income (NOI).**
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
-![Tool Type](https://img.shields.io/badge/Type-Property%20Operations%20Tracker-orange.svg)
-![Excel](https://img.shields.io/badge/Excel-Microsoft%20365%20%7C%202021%2B-217346.svg)
+![Apache 2.0 Open Source Property Management Template](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![Web Browser and Microsoft Excel Landlord Spreadsheet](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-green.svg)
+![Real Estate Portfolio Operations and Maintenance Tracker](https://img.shields.io/badge/Type-Property%20Operations%20Tracker-orange.svg)
+![Microsoft Excel 365 and 2021 Property Management Workbook](https://img.shields.io/badge/Excel-Microsoft%20365%20%7C%202021%2B-217346.svg)
 
-**Stop managing properties through scattered notes and memory. Keep tenant records, maintenance history, upcoming deadlines, and operational responsibilities in one place — with a lightweight, reusable tracking framework.**
+**Stop managing rental units through fragmented spreadsheets, buried emails, and personal memory. Centralize your tenant directory, preventative maintenance history, lease renewal alerts, and contractor follow-ups in one reusable real estate operations framework.**
 
-> **Access the Tool**
+> ### Access the Free Property Management Tool
 >
-> No signup. No installation. Free to use.
+> No account signup. No software installation. Free for commercial and personal portfolio use.
 >
-> - 🌐 **[Open in Browser](YOUR_BROWSER_VERSION_URL)** — Access the web-based version without installing software.
-> - 📥 **[Download Excel Version](YOUR_EXCEL_DOWNLOAD_URL)** — Use the offline workbook for permanent records, operational history, and recurring property management.
+> - 🌐 **[Launch the Free Web-Based Rental Property Tracker in Your Browser](YOUR_BROWSER_VERSION_URL)** — Test the interactive landlord dashboard online instantly to evaluate workflow fit without installing software.
+> - 📥 **[Download the Full Landlord Property Management Excel Template (.xlsx)](YOUR_EXCEL_DOWNLOAD_URL)** — Get the permanent offline spreadsheet workbook for multi-year tenant history, recurring maintenance tracking, and customized portfolio alerts.
 >
-> The Excel edition is designed for Microsoft 365 and Excel 2021 or later.
+> *System Compatibility: The downloadable `.xlsx` spreadsheet is built natively for Microsoft Excel 365 and Excel 2021 or later (no macros or VBA security risk).*
 
 ---
 
-## What It Helps You Track
+## Core Rental Property Tracking Features: Pain-Point to Solution Mapping
 
-Property Operations Hub brings together the operational information that small property portfolios frequently struggle to maintain consistently.
+Small real estate portfolios frequently lose profit margins due to untracked operational friction. This rental property tracker transforms chaotic daily landlord tasks into structured, searchable records:
 
-- **Insurance and inspection deadlines** — See which properties have upcoming insurance renewals, overdue policies, or scheduled compliance inspections.
-- **Tenant occupancy and lease renewals** — Identify occupied and vacant properties, monitor lease expiration dates, and prepare renewal conversations before contracts end.
-- **Maintenance costs and property history** — Track repair frequency, contractor assignments, outstanding work orders, and cumulative maintenance spending by property.
-- **Tenant communication and outstanding commitments** — Preserve communication history, record follow-up actions, and identify unresolved tenant requests.
-- **Operational risks and daily priorities** — Consolidate overdue items, upcoming deadlines, unresolved maintenance, and tenant follow-ups into actionable lists.
-- **Property-level operational health** — Identify which properties require attention based on maintenance frequency, spending thresholds, and outstanding operational issues.
-
-## Quick Start Workflow
-
-The workbook follows a simple operating model: configure the rules once, maintain the source records, and let the system calculate the operational status automatically.
-
-**1. Configure the operating rules**
-
-Start with the `Settings` sheet.
-
-Set the base currency, exchange rate, insurance warning period, inspection warning period, lease renewal threshold, maintenance cost limits, and other operating parameters.
-
-These settings control the calculations throughout the workbook.
-
-**2. Enter existing property and tenant information**
-
-Add property records to `Properties` and tenant records to `Tenants`.
-
-Existing information can be copied from spreadsheets or exported records. Enter property identifiers, addresses, lease dates, contact information, and relevant operational notes.
-
-**3. Record daily operational activities**
-
-Use `Interactions` to document tenant conversations and outstanding commitments.
-
-Use `Maintenance Log` to record repair requests, contractor assignments, completion dates, and costs.
-
-**4. Review the results and refresh periodically**
-
-Open `Dashboard` for the overall operating picture and `Alerts` for specific items requiring action.
-
-Calculations update automatically when source records or operating parameters change. Continue adding new records as properties, tenants, and maintenance activities evolve.
-
-Set the rules once. Maintain the records. Review the risks. Follow up before small operational issues become expensive problems.
-
----
-
-## Why I Built This
-
-Small property portfolios often have a surprisingly difficult information-management problem.
-
-A landlord managing five to twenty properties may know every tenant personally, remember which contractor handles plumbing, and keep track of insurance renewals through emails, calendars, spreadsheets, and handwritten notes.
-
-That approach works until information becomes fragmented or responsibility changes hands.
-
-The problem is not necessarily a lack of information. It is the absence of a consistent way to connect information to the next operational decision.
-
-For example, a property may have three separate maintenance records, an upcoming insurance renewal, and an unresolved tenant complaint. Each record looks manageable individually. But without a property-level view, the owner may not recognize that the same property is accumulating operational risks.
-
-A similar problem occurs with tenant communication. A contractor may have completed a repair, but the tenant still needs confirmation. Closing the maintenance task does not automatically close the communication commitment.
-
-I designed this workbook as a form of **productized reasoning**: a reusable framework that turns recurring property-management questions into structured records, automatic checks, and action lists.
-
-Instead of relying on memory to answer questions such as:
-
-- Which property needs attention today?
-- Which lease should be discussed before expiration?
-- Which repair requests are still unresolved?
-- Where is maintenance spending becoming unusually high?
-- What commitments were made to tenants but have not been completed?
-
-The workbook makes these questions part of a repeatable operating process.
-
-The objective is not to replace a professional property management platform. It is to make small-scale property operations more organized, traceable, and easier to hand over.
-
-## Common Property Management Problems This Solves
-
-| Problem | Without This Tool | With This Tool |
+| Landlord Operational Pain Point | High-Frequency Search Intent / Module | How This Property Management Template Solves It |
 |---|---|---|
-| Missed insurance and inspection deadlines | Renewal dates remain buried in individual documents or calendar reminders. | Upcoming and overdue deadlines appear in a consolidated warning list. |
-| Unexpected tenant turnover | Lease expiration is discovered too late to coordinate renewal or replacement tenants. | Remaining lease days and renewal priorities are visible before expiration. |
-| Uncontrolled maintenance spending | Repair costs are recorded separately, making repeated failures and cumulative spending difficult to recognize. | Maintenance frequency and cumulative costs are summarized by property. |
-| Lost tenant commitments | Conversations and promises remain in messages or personal memory. | Every interaction has a recorded follow-up action and completion status. |
-| Unresolved contractor work | Repair requests remain open without a clear overview of elapsed time or responsible contractors. | Outstanding work orders are consolidated with contractor details and delay indicators. |
-| Difficult property handovers | Important property knowledge depends on the previous operator. | Property records, tenant history, maintenance notes, and outstanding tasks provide a structured handover reference. |
+| **Lapsed landlord insurance & missed safety inspections** | **Compliance & Insurance Deadline Tracker** | Calculates remaining days until policy expiration or municipal code inspection, flagging overdue units before fines or coverage gaps occur. |
+| **Unexpected vacancy loss & late lease renewals** | **Tenant Occupancy & Lease Renewal Schedule** | Tracks occupancy status and triggers automated 30/60/90-day lease expiration warnings so you can negotiate rent increases or start tenant turnover marketing early. |
+| **Maintenance cost creep & repeat contractor billing** | **Property Maintenance Log & CapEx/OpEx Tracker** | Logs work orders, vendor assignments, completion dates, and cumulative repair spending per unit to expose chronic plumbing, HVAC, or structural issues. |
+| **Forgotten tenant promises & dispute liability** | **Tenant Communication & CRM Follow-Up Log** | Documents timestamped tenant interactions, complaint resolutions, and pending landlord commitments to maintain a clear audit trail. |
+| **Daily task overload across multiple rental units** | **Automated Landlord Action & Risk Dashboard** | Consolidates overdue repairs, expiring leases, and pending tenant callbacks into a prioritized daily checklist. |
+| **Blind spots in individual property profitability** | **Unit-Level Operational Health & Cost Monitor** | Benchmarks repair frequency and cumulative maintenance expenses against preset budget thresholds to identify high-maintenance properties. |
 
-## Who This Is For
+---
 
-Property Operations Hub is designed for:
+## Step-by-Step Tutorial: How to Set Up Your Rental Property Tracker (Quick Start Workflow)
 
-- Individual landlords managing several residential or vacation rental properties.
-- Families coordinating a small portfolio of rental properties.
-- Small property operators who need consistent tenant and maintenance records without adopting a complex management platform.
-- Property owners preparing to delegate daily responsibilities or transfer operational knowledge to another person.
+This landlord spreadsheet operates on a **"Configure Once, Track Continuously"** architecture. Follow this 4-step workflow to audit your rental portfolio in under 10 minutes:
 
-It is particularly useful when the portfolio is large enough that personal memory and scattered spreadsheets become unreliable, but not large enough to justify a full enterprise property management system.
+### Step 1: Configure Portfolio Alert Thresholds & Operating Rules
+Open the `Settings` tab to define your baseline real estate parameters. Set your local currency, foreign exchange rates, insurance renewal lead times (e.g., 45 days), safety inspection warning windows, lease expiration alert thresholds (e.g., 60 days), and maximum per-unit maintenance cost limits. These global rules drive all automated conditional formatting and risk calculations across the workbook.
 
-**Who this is not designed for:** Large property management companies requiring multi-user access controls, automated rent collection, accounting integrations, tenant portals, or real-time Airbnb and Booking.com synchronization.
+### Step 2: Import Your Rental Property Inventory & Tenant Directory
+Navigate to the `Properties` and `Tenants` tabs to build your master database. Copy and paste existing data from old rent rolls or CSV exports. Input unit identifiers, street addresses, lease start and end dates, security deposit notes, tenant contact details, and baseline unit conditions.
 
-No spreadsheet expertise needed. Open the browser version and start tracking immediately, or use the Excel workbook for offline operational records.
+### Step 3: Log Daily Work Orders, Repairs, and Tenant Communications
+Whenever an operational event occurs, record it in two dedicated logs:
+- **Use the `Interactions` sheet** as your landlord CRM to log tenant requests, lease renewal discussions, and open follow-up commitments.
+- **Use the `Maintenance Log` sheet** as your work order tracker to record repair descriptions, assigned contractors, invoice amounts, and resolution statuses.
 
-## About
+### Step 4: Audit Portfolio Risks & Transition to the Permanent Excel Workbook
+Open the `Dashboard` tab for an executive summary of portfolio health, and check the `Alerts` tab for a prioritized list of urgent tasks. 
+- **Try Before You Commit:** **[Test the workflow in the Interactive Browser Sandbox](YOUR_BROWSER_VERSION_URL)** using sample data or a single rental unit to see how automated alerts work in real time.
+- **Deploy for Long-Term Portfolio Management:** Once you validate the workflow, **[Download the Reusable Microsoft Excel Workbook (.xlsx)](YOUR_EXCEL_DOWNLOAD_URL)** to save your permanent local database, track multi-year maintenance histories, and manage recurring lease cycles offline without data loss.
 
-I build lightweight business trackers and decision-support tools for operational situations where too many moving parts are difficult to manage through memory and disconnected records.
+---
 
-The central question behind each tool is simple: **What information needs to be available in one place to make the next operational decision confidently?**
+## The Business Logic & Methodology: Uncovering Hidden Landlord Blind Spots
 
-Property Operations Hub is one example of this approach. It turns recurring property management activities into a structured, reusable operating framework without introducing the complexity of a full enterprise system.
+If you manage 1 to 20 rental properties without a background in commercial asset management, it is easy to assume that **collecting rent on time means your portfolio is profitable**. In reality, small-scale landlords rarely lose money from a single catastrophic event; they bleed profit through **unconnected operational blind spots**.
+
+This tool is built on **Productized Operational Reasoning**—a methodology that translates professional asset-management logic into a zero-learning-curve spreadsheet for everyday property owners. Here are the three commercial blind spots this framework solves for you:
+
+### 1. The "Isolated Expense" Illusion (Maintenance Creep vs. Unit Profitability)
+When you record repairs in scattered bank statements or text messages, a $250 plumbing fix in January, a $300 leak repair in April, and a $400 valve replacement in August look like normal, manageable expenses. 
+- **The Business Blind Spot:** You are paying $950 for recurring band-aid fixes on a failing pipe system instead of making a $600 permanent replacement—while simultaneously eroding that specific unit's annual net cash flow.
+- **How the Methodology Fixes It:** By binding every maintenance log entry to a specific `Property ID` and comparing cumulative spending against your preset budget cap, the system automatically flags **chronic cost-draining units** so you can make data-backed repair-or-replace decisions.
+
+### 2. The "Closed Ticket ≠ Closed Loop" Trap (Tenant Retention & Turnover Cost)
+In amateur property management, once a plumber fixes a leak and sends an invoice, the landlord mentally marks the task as "Done."
+- **The Business Blind Spot:** If you forget to follow up with the tenant to confirm satisfaction or check for secondary water damage, the tenant feels neglected. When their lease expires six months later, they move out. A single preventable tenant turnover costs an average of 1–2 months of gross rent in vacancy loss, cleaning, and re-leasing fees.
+- **How the Methodology Fixes It:** The workbook separates **Contractor Work Order Status** (`Maintenance Log`) from **Tenant Communication Commitments** (`Interactions`). Closing a repair ticket does not clear your risk dashboard until the tenant follow-up commitment is also marked complete.
+
+### 3. The "reactive Renewal" Penalty (Vacancy Exposure)
+Most independent landlords only think about lease renewals 15 to 30 days before a contract ends.
+- **The Business Blind Spot:** At 30 days out, the tenant holds all the negotiating leverage. If they decide to vacate, you have zero buffer time to schedule turnover repairs or market the listing, guaranteeing at least 30 days of zero rental income.
+- **How the Methodology Fixes It:** The `Alerts` engine works backward from lease expiration dates using your custom threshold (e.g., 60 or 90 days), converting passive calendar dates into an active **pipeline of renewal negotiations** while you still have time to adjust rents or pre-market the unit.
+
+---
+
+## Rental Operations Comparison: Manual Spreadsheets vs. Property Operations Hub
+
+| Operational Dimension | Ad-Hoc Management (Scattered Notes & Basic Sheets) | Standardized Portfolio SOP (Property Operations Hub) |
+|---|---|---|
+| **Compliance & Insurance Renewals** | Policy expiration dates and municipal inspection schedules remain buried in PDF attachments or personal calendar alerts. | Automated countdown formulas consolidate upcoming and overdue compliance deadlines into a single **Portfolio Risk Alert List**. |
+| **Lease Expiration & Turnover Planning** | Lease end dates are noticed too late, causing rushed renewal talks, unadjusted below-market rent, or unscheduled vacancy gaps. | Real-time **Remaining Lease Days** calculation prioritizes upcoming renewals 60–90 days in advance to prevent vacancy loss. |
+| **Contractor & Work Order Tracking** | Repair invoices and vendor phone numbers are split across WhatsApp, email, and bank statements with no visibility into repair duration. | Centralized **Work Order Log** tracks assigned contractors, elapsed open days, overdue status, and unit-level repair frequency. |
+| **Maintenance Cost Control (OpEx)** | Expenses are totaled only at tax time, hiding repeat equipment failures and runaway contractor spending during the year. | Dynamic **Unit Cost Thresholds** monitor cumulative maintenance spend per property and trigger overspending warnings immediately. |
+| **Tenant CRM & Dispute Protection** | Verbal promises and repair follow-ups rely on memory, leading to tenant dissatisfaction and undocumented lease disputes. | Structured **Tenant Interaction Log** links every conversation to a required follow-up action, due date, and completion status. |
+| **Portfolio Handover & Delegation** | Institutional knowledge is trapped in the owner's head, making it impossible to delegate tasks to a family member or assistant. | Self-contained **Operations Manual & Database** allows instant handover of property history, active vendors, and open tasks. |
+
+---
+
+## Who This Rental Property Management Template Is For (Target Roles & Use Cases)
+
+This tool is engineered for real estate operators who have outgrown sticky notes and blank spreadsheets, but do not want the monthly SaaS subscription fees or steep learning curve of enterprise property management software:
+
+### 1. Independent & DIY Landlords (Managing 2–20 Residential Units)
+- **Scenario:** You self-manage single-family rentals (SFR), duplexes, or small multi-family apartments alongside a full-time job.
+- **Why It Fits:** Gives you a **free landlord spreadsheet template** that automates lease renewal reminders and maintenance logs without paying $50–$100+/month for complex cloud software.
+
+### 2. Small Real Estate Investors & BRRRR Portfolio Builders
+- **Scenario:** You are scaling a rental portfolio and need to track post-renovation maintenance stability, vendor reliability, and unit-level operating expenses.
+- **Why It Fits:** Acts as a **real estate portfolio tracker** that highlights which properties are exceeding maintenance budgets so you can protect cash flow and asset valuation.
+
+### 3. Family Property Portfolios & Estate Administrators
+- **Scenario:** Multiple family members co-own inherited rental properties or vacation homes, and operational responsibilities periodically rotate.
+- **Why It Fits:** Provides a **standardized property handover template** where lease dates, insurance policies, and contractor histories live in one transparent workbook rather than one person's phone.
+
+### 4. Part-Time Property Managers & Virtual Assistants (VAs)
+- **Scenario:** A property owner is delegating daily tenant communications and repair scheduling to an assistant or co-host for the first time.
+- **Why It Fits:** Functions as a **lightweight work order and tenant CRM tracker** with clear operating rules (`Settings`) and an instant supervision view (`Dashboard` & `Alerts`).
+
+**When NOT to use this tool:** This workbook is *not* designed for large commercial property management firms (50+ units) requiring multi-user role permissions, automated ACH rent collection, double-entry general ledger accounting, tenant login portals, or real-time API channel synchronization with Airbnb and Booking.com.
+
+---
+
+## About the Creator & Design Philosophy
+
+I build lightweight **business operations trackers and Excel decision-support templates** for small operators managing high-stakes workflows without enterprise software teams.
+
+Every template is designed around one core operational question: **"What exact data needs to be visible on one screen to make the next business decision confidently?"**
+
+Property Operations Hub applies this framework to residential real estate management—turning recurring landlord headaches into an automated, repeatable operating system inside Microsoft Excel and your web browser.
 
 ---
 
