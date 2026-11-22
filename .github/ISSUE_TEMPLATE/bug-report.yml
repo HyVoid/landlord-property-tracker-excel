@@ -1,0 +1,104 @@
+name: Bug report
+description: Report a reproducible problem in Landlord Property Operations & Rental Tracker. This form is for technical defects;
+  use the central Discussions links for general questions and ideas.
+title: '[Bug] Landlord Property Operations & Rental Tracker'
+body:
+- type: markdown
+  attributes:
+    value: Please report one issue per submission. Do not attach or paste production files. A small synthetic example is usually
+      enough to reproduce a calculation or workflow problem.
+- type: dropdown
+  id: problem_area
+  attributes:
+    label: Workflow area
+    description: Choose the part of the workbook or workflow where the issue occurs.
+    options:
+    - Property / unit setup and occupancy
+    - Tenant directory or lease records
+    - Lease expiration and renewal alerts
+    - Maintenance log, work orders, or status
+    - Vendor assignment and follow-up
+    - Insurance, inspection, or compliance deadlines
+    - Unit-level maintenance cost / NOI visibility
+    - Dashboard, alerts, or date calculations
+    - Excel / browser compatibility
+    - Other
+  validations:
+    required: true
+- type: dropdown
+  id: environment
+  attributes:
+    label: Where did the issue occur?
+    description: Choose the closest environment.
+    options:
+    - Browser-based tool / web demo
+    - Microsoft Excel for Microsoft 365
+    - Microsoft Excel 2021
+    - Google Sheets preview
+    - Other / not sure
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Version / page / workbook context
+    description: Provide the workbook version, release / commit, browser, Excel build, or exact catalog page / tool link where
+      relevant.
+    placeholder: e.g. workbook v1.2; Excel 365 Version ...
+  validations:
+    required: false
+- type: input
+  id: summary
+  attributes:
+    label: Issue summary
+    description: A concise title describing what is wrong.
+    placeholder: e.g. A valid input is not included in the summary
+  validations:
+    required: true
+- type: textarea
+  id: expected_actual
+  attributes:
+    label: Expected result and actual result
+    description: Explain what you expected to happen and what happened instead. Include the affected output / field / cell
+      if known.
+    placeholder: 'Expected: ...
+
+      Actual: ...'
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    description: List the smallest sequence of actions that reproduces the issue. Include relevant settings or assumptions.
+    placeholder: '1. Open ...
+
+      2. Enter synthetic values ...
+
+      3. Review ...'
+  validations:
+    required: true
+- type: textarea
+  id: safe_example
+  attributes:
+    label: Synthetic example (no real business data)
+    description: A fictional unit and lease with made-up dates, rent, and maintenance costs. Never include tenant names, contact
+      details, addresses, lease documents, or access information. Do not include personal, confidential, or production data.
+      Do not attach the original workbook or exports.
+    placeholder: 'Input values: ...
+
+      Expected output: ...
+
+      Actual output: ...'
+  validations:
+    required: true
+- type: checkboxes
+  id: privacy_check
+  attributes:
+    label: Privacy confirmation
+    options:
+    - label: I have removed personal, confidential, and production data and have used only synthetic or adequately de-identified
+        information.
+      required: true
+  validations:
+    required: true
